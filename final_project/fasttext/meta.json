@@ -1,0 +1,61 @@
+{
+    "algorithm": {
+        "command": null,
+        "id": 8,
+        "name": "fastText Skipgram",
+        "tool": "Gensim",
+        "url": "https://github.com/RaRe-Technologies/gensim",
+        "version": "3.6"
+    },
+    "contents": [
+        {
+            "filename": "model.model",
+            "format": "data"
+        },
+        {
+            "filename": "model.model.vectors.npy",
+            "format": "data"
+        },
+        {
+            "filename": "model.model.vectors_ngrams.npy",
+            "format": "data"
+        },
+        {
+            "filename": "model.model.vectors_vocab.npy",
+            "format": "data"
+        },
+        {
+            "filename": "meta.json",
+            "format": "json"
+        }
+    ],
+    "corpus": [
+        {
+            "NER": true,
+            "case preserved": false,
+            "description": "Russian National Corpus",
+            "id": 88,
+            "language": "rus",
+            "lemmatized": true,
+            "public": false,
+            "stop words removal": null,
+            "tagger": "UDPipe 1.2",
+            "tagset": "UPoS",
+            "tokens": 270000000,
+            "url": "http://ruscorpora.ru/"
+        }
+    ],
+    "dimensions": 300,
+    "documentation": "https://rusvectores.org",
+    "external_id": "ruscorpora_none_fasttextskipgram_300_2_2019",
+    "id": 181,
+    "iterations": 3,
+    "maintainers": [
+        {
+            "email": "andreku@ifi.uio.no",
+            "name": "Andrey Kutuzov"
+        }
+    ],
+    "vocabulary size": 164996,
+    "window": 2
+}
